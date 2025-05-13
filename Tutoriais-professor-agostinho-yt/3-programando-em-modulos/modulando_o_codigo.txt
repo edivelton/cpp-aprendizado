@@ -1,0 +1,2 @@
+Ao modularizar o código, ou seja, criar arquivos .cpp e .h para as classes o ideal é que os arquivos tenham o mesmo nome que a classe
+irá receber, só que com letra minúscula, isso ajuda a identificar e fica muito mais fácil.

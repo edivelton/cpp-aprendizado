@@ -30,7 +30,10 @@ CLASSES em C++ são um TIPO de dado que são capazes de representar, propriedade
 //O COMPORTAMENTO da classe é definida pelas suas funções-membros (métodos) que geralmente são públicos pois modificam o ESTADO do objeto (Essas funções são usadas)
 //AS PROPRIEDADES da classe, por sua vez, geralmente são privadas pois só são usadas dentro da classe (não tem necessidade do restante do código acessá-las, pois elas regem o funcionamento da classe)
 //Algo que se busca é o conceito de ENCAPSULAR o objeto: Note que para alguém que for usar uma classe criada por você não é importante para ele saber como a classe
-//faz mas sim saber COMO ela faz. ((explicar os metodos que são a entrada.....)))  28:00
+//faz mas sim saber O QUÊ ela faz. Dessa maneira é como se o meio de campo ficasse encapsulado, onde é possível ter entradas, saber o que está acontecendo, mas não como acontece e ter saídas
+//Basicamente o programador que usa a classe não tem acesso a como as coisas são feitas dentro dela, diferente do programador que desenvolve a classe que sabe o que há nesse encapsulamento.
+//Encapsulamento é uma propriedade  onde é possível proteger o objeto para que ele tenha um comportamento bem definido, onde há uma abstração  da classe onde se tem acesso somente aos métodos da classe
+// Via de regra há o encapsulamento, porém quando se trata de alto desempenho, nem sempre é assim, pois sempre quando se chama um método,isso tem um custo de tempo.
 
 
 
