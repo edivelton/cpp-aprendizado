@@ -1,0 +1,7 @@
+# ninja log v6
+5	760	7685308613589222	CMakeFiles/helloCPP.dir/main.cpp.obj	4a04cf7651612c56
+763	1033	7685308621164898	helloCPP.exe	854c864f7d0cb630
+25	724	7685314912670333	CMakeFiles/helloCPP.dir/funcao1.cpp.obj	acd5e6eba8073946
+18	730	7685314912590360	CMakeFiles/helloCPP.dir/main.cpp.obj	4a04cf7651612c56
+31	736	7685314912720287	CMakeFiles/helloCPP.dir/funcao2.cpp.obj	7812594742ec5b5
+736	881	7685314919766266	helloCPP.exe	aa56aaaa9f85eab8

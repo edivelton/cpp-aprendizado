@@ -1,0 +1,40 @@
+CLASSES são um CONJUNTO de objetos que compartilham caracteristicas em comum.
+OBJETO é uma INSTÂNCIA de uma classe
+	ex: mouse logitec e mouse razer: ambos são objetos de mesmo tipo, pertencentes a CLASSE mouse
+Classes devem ter comportamentos bem definidos 
+Os objetos físicos possuem:
+	Identidade: o que permite diferenciar os objetos (cada objeto ocupa seu lugar no espaço)
+	comportamento: O que o objeto faz ou como reage a mudanças (função executada)
+	Estado do objeto: Propriedades do objeto em um determinado espaço de tempo
+Os objetos que compõem uma classe também possuem:
+	Identidade: posição única na memória 
+	Comportament: o funcionalidades implementadas
+	Estado: valores que as variáveis assumem em um instante de tempo
+
+CLASSES em C++ são um TIPO de dado que são capazes de representar, propriedades e funcionalidades 
+
+	class MinhaClasse{  //class: palavra reservada, em seguida o nome da classe com letra maiúscula
+	private:
+	//Membros privados da classe vem aqui (são variáveis e funcionalidades que serão agregadas de forma privada) 
+	//Toda variável ou método (funções da classe) que for declarado aqui só podem ser "utilizados" pela própria classe e amigas da classe (mais a frente explicará)
+
+	public: 
+	// Membros publicos da classe vem aqui (são variáveis e funcionalidades que são agregadas de forma pública)
+	// Toda variável ou método (funções da classe) que for declarado aqui só podem ser "utilizados" pela classe e 
+	//por qualquer "utilizador" da classe (outras funções e trechos de código).
+	
+
+	}; //é necessário esse ";" ao fechar a classe, pois isso deixa claro que o que está sendo criado é um tipo abstrato de dado
+
+//Também existe a interface protected (serão tratada mais a frente) que envolvem o conceito de herança
+//O COMPORTAMENTO da classe é definida pelas suas funções-membros (métodos) que geralmente são públicos pois modificam o ESTADO do objeto (Essas funções são usadas)
+//AS PROPRIEDADES da classe, por sua vez, geralmente são privadas pois só são usadas dentro da classe (não tem necessidade do restante do código acessá-las, pois elas regem o funcionamento da classe)
+//Algo que se busca é o conceito de ENCAPSULAR o objeto: Note que para alguém que for usar uma classe criada por você não é importante para ele saber como a classe
+//faz mas sim saber COMO ela faz. ((explicar os metodos que são a entrada.....)))  28:00
+
+
+
+		
+
+
+ 
